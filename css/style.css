@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    width: 90%;
+    margin: 20px auto;
+    background: url('../image/stethoscope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sub_container {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 17px;
+}
+
+.sub_container_content {
+    text-align: center;
+    padding: 10px;
+}
+
+.sub_container_content h1 {
+    color: #113309;
+}
+
+.sub_container_line {
+    margin: 10px auto;
+    width: 124px;
+    height: 1px;
+    background-color: #ece7e7;
+}
+
+.sub_blueline {
+    margin: 25px auto;
+    width: 144px;
+    height: 2px;
+    background-color: #000fff;
+}
+
+.sub_container_content p {
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 35px;
+    color: #000000;
+}
+
+.form_section {
+    margin: 20px auto;
+}
+
+.patient_contact_details form input {
+    display: block;
+    width: 297px;
+    height: 36px;
+}
+
+.patient_contact_details form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.appointment_details {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.date form input {
+    width: 297px;
+    height: 36px;
+}
+
+.department form select {
+    width: 297px;
+    height: 36px;
+}
+
+.doctor form select {
+    width: 297px;
+    height: 36px;
+}
+
+.message {
+    width: 90%;
+    margin: 45px auto;
+}
+
+.message textarea {
+    width: 815px;
+    height: 106px;
+}
+
+.final_button {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+.appointment_button {
+    padding: 18px;
+    border-radius: 15px;
+    background-color: rgb(117, 121, 99);
+    color: rgb(15, 9, 9);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.appointment_button:hover {
+    background-color: #4fc338a5;
+}
